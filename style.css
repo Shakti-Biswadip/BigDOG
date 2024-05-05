@@ -1,7 +1,7 @@
 /*upper-part*/
 
 body {
-    background: linear-gradient(300deg, #c8f1ff, #57adf3, #72ef87);
+    background: linear-gradient(300deg, #c8f1ff, #a8d2f5, #72ef87);
     background-size: 360% 180%;
     animation: gradient-animation 5s ease infinite;
 }
@@ -28,7 +28,7 @@ body {
     margin-bottom: 70px;
     border-radius: 20px;
 
-    background: linear-gradient(300deg, #ffffff, #a0aec9, #99d6ff);
+    background: linear-gradient(300deg, #0e5aff, #8baeee, #792911);
     background-size: 180% 360%;
     animation: gradient-animation 5s ease infinite;
 }
@@ -120,7 +120,7 @@ img {
 .title {
     top: 50px;
     position: relative;
-    color: aliceblue;
+    color: white;
 }
 
 h1 {
@@ -166,9 +166,9 @@ h2 {
     border-radius: 20px;
     text-align: center;
     font-size: 2rem;
-    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background: linear-gradient(300deg, #1382a7, #afe7af, #ef8172);
     background-size: 180% 180%;
-    animation: gradient-animation 18s ease infinite;
+    animation: gradient-animation 15s ease infinite;
 }
 
 @keyframes gradient-animation {
@@ -184,8 +184,8 @@ h2 {
 }
 
  div.skill-container > h3 {
-    font-family: "Jersey 15 Charted", sans-serif;
-    font-weight: 400;
+    font-family: "Caveat", cursive;;
+    font-weight: 00;
     font-style: normal;
 }
 
@@ -416,6 +416,13 @@ h3 {
 }
 
 
+/*column text*/
+
+.column > p {
+    font-family: "Caveat", cursive;
+    font-weight: 900;
+}
+
 /*first column text*/
 
 h4 {
@@ -479,6 +486,8 @@ body > div.middle-container > div.skill-container > div > div.second-column > p{
 
 .contact p {
     color: black;
+    font-family: "Dancing Script", cursive;
+    font-weight: 1000;
 }
 
 /*laptop size*/
