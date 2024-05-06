@@ -425,9 +425,10 @@ h3 {
 
 /*first column text*/
 
-h4 {
+.column h4 {
     margin-left: 10px;
     margin-top: 5px;
+    font-family: "Dancing Script", cursive;
 }
 
 /*mobile size*/
@@ -539,7 +540,7 @@ body > div.middle-container > div.skill-container > div > div.second-column > p{
 }
 
 .btn {
-    background-color: rgb(0, 81, 255);
+    background-color: rgb(110, 154, 248);
     font-size: 30px;
     color: rgb(255, 255, 255);
     padding: 5px 30px 5px 30px;
